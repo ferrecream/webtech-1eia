@@ -10,7 +10,7 @@ background-size: cover;
 }
 .wrapper{
  width: 800px;
- margin: 10%;
+ margin-left: 5%;
 
 }
 .wrapper ul{
@@ -21,6 +21,10 @@ margin-top: 2%;
 background: #262626;
 width: 170px;
 border: 1px solid #fff;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
 height: 50px;
 line-height: 50px;
 text-align: center;
@@ -42,4 +46,8 @@ display: none;
 }
 .wrapper ul li:hover > ul{
 display: block;
+}
+.wrapper a{
+  color : white;
+  text-decoration: none;
 }
